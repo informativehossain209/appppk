@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/splash_background"
+    android:padding="32dp">
+
+    <ImageView
+        android:id="@+id/splash_logo"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@mipmap/ic_launcher"
+        android:scaleType="fitCenter"
+        android:layout_marginBottom="24dp" />
+
+    <TextView
+        android:id="@+id/splash_app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ghor Khoroch"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:shadowColor="#000000"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="6"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/splash_tagline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ঘরের খরচ হিসাব করুন সহজে"
+        android:textSize="15sp"
+        android:textColor="#E8F5E9"
+        android:layout_marginBottom="60dp" />
+
+    <View
+        android:layout_width="120dp"
+        android:layout_height="2dp"
+        android:background="#FF6D00"
+        android:layout_marginBottom="24dp" />
+
+    <TextView
+        android:id="@+id/splash_dev_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DEVELOPED BY"
+        android:textSize="11sp"
+        android:letterSpacing="0.2"
+        android:textColor="#B2DFDB"
+        android:layout_marginBottom="6dp" />
+
+    <TextView
+        android:id="@+id/splash_dev_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SAKIB HOSSAIN"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="#FF6D00"
+        android:letterSpacing="0.15"
+        android:shadowColor="#000000"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="8" />
+
+</LinearLayout>
